@@ -21,7 +21,7 @@ int Fermat::modInverse(const int& a, const int& mod) {
     if (gcd == 1) {
         return modPower(a, mod - 2, mod);
     }else {
-        throw "There is no modular inverse!";
+        throw std::invalid_argument{"There is no modular inverse!"};
     }
 
 }

@@ -1,6 +1,8 @@
 #ifndef _FERMATS_LITTLE_THEOREM_H_
 #define _FERMATS_LITTLE_THEOREM_H_
 
+#include <stdexcept>
+
 #include "../lib/euclid.hpp"
 
 class Fermat {

@@ -6,7 +6,7 @@
 int main(int argc, char const *argv[]) {
     
     try {
-        int modinv = Fermat::modInverse(*argv[1], *argv[2]);
+        int modinv = Fermat::modInverse((int)*argv[1], (int)*argv[2]);
         std::cout << "modular inverse of " << *argv[1] << "^" << *argv[2] << " is " << modinv << std::endl;
     } catch (std::exception ex) {
         std::cerr << ex.what() << std::endl;

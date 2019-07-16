@@ -1,10 +1,10 @@
-cmake_minimum_required(Version 3.10)
-
-set(CMAKE_CXX_STANDARD 17)
+cmake_minimum_required(VERSION 3.10)
 
 project(modinverse)
 
-set(SRC fermat.cpp
+set(CMAKE_CXX_STANDARD 17)
+
+set(SRC main.cpp
         ./fermat/fermat.cpp
         ./lib/euclid.cpp)
 

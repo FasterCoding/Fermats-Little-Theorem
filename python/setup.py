@@ -5,7 +5,7 @@ with open("../README.md", "r") as fh:
 
 setuptools.setup(
     name="Fermat@FasterCoding",
-    version="1.0.0",
+    version="1.0.1",
     author="FasterCoding",
     author_email="fastercodingtutorial@gmail.com",
     description="Example code for the Fermats-Little-Theorem modular inverse algorithm",

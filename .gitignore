@@ -1,0 +1,6 @@
+build/
+python/bin/
+python/include/
+python/lib/
+python/dist/
+

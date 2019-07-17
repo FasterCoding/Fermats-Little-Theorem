@@ -1,1 +1,4 @@
 build/
+python/bin/
+python/include/
+python/lib/
